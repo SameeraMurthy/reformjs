@@ -4,12 +4,12 @@
 
  
 # ReformJS
-### Ajaxify the HTML form with Passform in ease.
-#### With Passform, you don't have to worry about creating Ajax calls for HTML forms.
+### Ajaxify the HTML form with Reform.js in ease.
+#### With Reform.js, you don't have to worry about creating Ajax calls for HTML forms.
 <br/>
 
 ## Installation
 Include the CDN in the `head` section of your HTML:
 ```html
-<script src="https://cdn.jsdelivr.net/gh/SameeraMurthy/passform@latest/dist/reform.js" defer></script>
+<script src="https://cdn.jsdelivr.net/gh/SameeraMurthy/reform@latest/dist/reform.js" defer></script>
 ```
