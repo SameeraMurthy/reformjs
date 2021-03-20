@@ -12,5 +12,14 @@
 Include the CDN in the `head` section of your HTML:
 ```html
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
-<script src="https://cdn.jsdelivr.net/gh/SameeraMurthy/reformjs@latest/dist/reform.js" defer></script>
+<script src="https://cdn.jsdelivr.net/gh/SameeraMurthy/reformjs@latest/dist/reform.min.js" defer></script>
+```
+
+## Usage
+In your HTML:
+```html
+<form action="/endpoint" method="GET" data-reform="">
+    <input type="text" name="name" required/>
+    <button type="submit">Go</button>
+</form>
 ```

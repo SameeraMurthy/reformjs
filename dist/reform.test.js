@@ -1,16 +1,5 @@
-// window.Reform = {}
-// window.Reform.handler = class {
-//     constructor(element) {
-//         this.element = element ?? "form[data-passform]"
-//     }
-
-//     handle (element, ) {
-
-//     }
-// }
-
 $(document).ready(() => {
-    $("form[data-passform]").submit(function(e) {
+    $("form[data-reform]").submit(function(e) {
         e.preventDefault()
         $.ajax({
             type: $(this).attr("method"),
@@ -27,3 +16,13 @@ $(document).ready(() => {
     })
 })
 
+// window.Reform = {}
+// window.Reform.handler = class {
+//     constructor(element) {
+//         this.element = element ?? "form[data-passform]"
+//     }
+
+//     handle (element, ) {
+
+//     }
+// }
